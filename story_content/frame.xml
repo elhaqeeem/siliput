@@ -8,7 +8,8 @@
     <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
     <layout name="npnxnabnsnfns00000000001" font="Open Sans" controllayout="npnxnabnsnfns00000000001" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
     <layout name="npnxabnsnfns00000000001" font="Open Sans" controllayout="npnxabnsnfns00000000001" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
-    <layout name="npnxanbnsnfns00000000001" font="Open Sans" controllayout="npnxanbnsnfns00000000001" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
+    <layout name="pxnabnsnfns00000000001" font="Open Sans" controllayout="pxnabnsnfns00000000001" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
+    <layout name="pxanbnsnfns00000000001" font="Open Sans" controllayout="pxanbnsnfns00000000001" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -83,7 +84,7 @@
       </optiongroup>
       <optiongroup name="bottombaroptions">
         <options>
-          <option name="bottombar_enabled" value="false" />
+          <option name="bottombar_enabled" value="true" />
         </options>
       </optiongroup>
     </optiongroups>
@@ -250,14 +251,37 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxanbnsnfns00000000001">
+    <control_layout name="pxnabnsnfns00000000001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
-      <control name="previous" enabled="false" />
-      <control name="next" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxanbnsnfns00000000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="false" />
       <control name="submit" enabled="false" />
@@ -1384,16 +1408,6 @@
             <slidelink slideid="_player.5zWp3eKPf7g.5b95fpDz7bU" displaytext="Materi 4" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.6E7SZNERLL4" displaytext="Exercise" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.6E7SZNERLL4.6Axmfad3qHm" displaytext="Intruction Exercise" expand="false" type="slide" />
-            <slidelink slideid="_player.6E7SZNERLL4.6k6uPI25p2V" displaytext="ex - 1" expand="false" type="slide" />
-            <slidelink slideid="_player.6E7SZNERLL4.6i3qeYI3JV3" displaytext="ex - 2" expand="false" type="slide" />
-            <slidelink slideid="_player.6E7SZNERLL4.6FvfEMi6mce" displaytext="ex - 3" expand="false" type="slide" />
-            <slidelink slideid="_player.6E7SZNERLL4.66qqH5mxZ28" displaytext="ex - 4" expand="false" type="slide" />
-            <slidelink slideid="_player.6E7SZNERLL4.6NUEqUmY8XC" displaytext="ex - 5" expand="false" type="slide" />
-          </links>
-        </slidelink>
         <slidelink slideid="_player.6LAZFlUq0Ae" displaytext="Game" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6LAZFlUq0Ae.6ddVFwUUikl" displaytext="Game cover" expand="false" type="slide" />
@@ -1423,6 +1437,21 @@
         <slidelink slideid="_player.6iSXsJ6PsOG" displaytext="Result Game" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6iSXsJ6PsOG.66ImneuPXdp" displaytext="Result" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5p1UYqrMIEB" displaytext="Exercise" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5p1UYqrMIEB.5hMNWlLxoJ8" displaytext="Cover ex" expand="false" type="slide" />
+            <slidelink slideid="_player.5p1UYqrMIEB.6JVnDyj5WWY" displaytext="ex 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5p1UYqrMIEB.5g3WH5OA0TK" displaytext="ex 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5p1UYqrMIEB.6PZqzLs20Ms" displaytext="ex 3" expand="false" type="slide" />
+            <slidelink slideid="_player.5p1UYqrMIEB.6kG8WqeGOeb" displaytext="ex 4" expand="false" type="slide" />
+            <slidelink slideid="_player.5p1UYqrMIEB.5zo4YlE87lY" displaytext="ex 5" expand="false" type="slide" />
+            <slidelink slideid="_player.5p1UYqrMIEB.6WnTYFZjvlF" displaytext="ex 6" expand="false" type="slide" />
+            <slidelink slideid="_player.5p1UYqrMIEB.65g2j43FOIF" displaytext="ex 7" expand="false" type="slide" />
+            <slidelink slideid="_player.5p1UYqrMIEB.5yD78FXvlsp" displaytext="ex 8" expand="false" type="slide" />
+            <slidelink slideid="_player.5p1UYqrMIEB.6FI6bjDvZvh" displaytext="ex 9" expand="false" type="slide" />
+            <slidelink slideid="_player.5p1UYqrMIEB.6gEMBg7JttV" displaytext="ex 10" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
